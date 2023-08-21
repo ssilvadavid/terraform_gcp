@@ -23,13 +23,12 @@ provider "google"{
     project = "perfect-operand-369501"
     region = "us-central1"
     zone = "us-central1-a"
-    credentials = var.google_credentials_file
+    credentials = file(var.google_credentials_file)
 }
 
 provider "google-beta"{
     project = "perfect-operand-369501"
     region = "us-central1"
     zone = "us-central1-a"
-    credentials = var.google_credentials_file
+    credentials = file(var.google_credentials_file)
 }
-
