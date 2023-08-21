@@ -23,12 +23,13 @@ provider "google"{
     project = "possible-byway-392901"
     region = "us-central1"
     zone = "us-central1-a"
-    credentials = var.google_credentials_file
+    credentials = "./credential/access.json"
 }
 
 provider "google-beta"{
     project = "possible-byway-392901"
     region = "us-central1"
     zone = "us-central1-a"
-    credentials = var.google_credentials_file
+    credentials = "./credential/access.json"
 }
+

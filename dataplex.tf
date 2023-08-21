@@ -3,5 +3,5 @@ module "dataplex_lake1" {
 
   name     = "jenkins_init"
   location     = "us-central1"
-  project = "perfect-operand-369501"
+  project = "possible-byway-392901"
 }
